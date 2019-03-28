@@ -11,6 +11,7 @@ class CashRegister
     quantity.times do
       self.total += price
       @items << item_name
+      self.last_transaction = price
     end
   end
   
