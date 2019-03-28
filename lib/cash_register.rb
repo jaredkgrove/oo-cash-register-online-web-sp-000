@@ -1,5 +1,5 @@
 class CashRegister
-  
+  attr_accessor :total,
   
   def apply_discount(discount)
     
